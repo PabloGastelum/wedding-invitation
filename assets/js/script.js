@@ -1103,7 +1103,7 @@ wpo-service-active SLIDER
         const contactPhome = contact === "Pablo" ? "6441915208" : "6442611891";
 
         window.open(
-          `https://api.whatsapp.com/send?phone=+52${contactPhome}&text=%2AHola%2C+${contact}+%F0%9F%91%8B+%2A%0AYo+${name}*+confirmo+mi+asistencia+a+tu+boda+junto+a+${peopleText}.%0A%C2%A1Nos+vemos+pronto%21+%E2%98%BA%EF%B8%8F`
+          `https://api.whatsapp.com/send?phone=+52${contactPhome}&text=%2AHola+${contact}%2A+%F0%9F%91%8B%0AYo+%2A${name}%2A+te+confirmo+mi+asistencia+a+tu+boda+el+d%C3%ADa+8+de+noviembre+junto+a+${peopleText}.%0ANos+vemos+pronto%21+%F0%9F%98%89`
         );
 
         form.reset();
