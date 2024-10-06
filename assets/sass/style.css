@@ -608,7 +608,7 @@ a.ui-button:active,
 
 .wpo-section-title p,
 .wpo-section-title-s2 p {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .wpo-section-title-s2 .section-title-img .round-ball {
@@ -8992,7 +8992,7 @@ wpo-hero-slider-s4
 
 @media (max-width: 480px) {
     .wpo-wedding-date p {
-        font-size: 15px;
+        font-size: 18px;
     }
 }
 
@@ -9686,7 +9686,7 @@ wpo-hero-slider-s4
 
     .wpo-story-section .wpo-story-item .wpo-story-content .wpo-story-content-inner p,
     .wpo-story-section-s2 .wpo-story-item .wpo-story-content .wpo-story-content-inner p {
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
@@ -11382,7 +11382,7 @@ wpo-hero-slider-s4
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
         margin-left: 0;
-        margin-top: 30px;
+        margin-top: -21px;
         text-align: center;
     }
 }
@@ -11453,7 +11453,7 @@ wpo-hero-slider-s4
 
 @media (max-width: 575px) {
     .wpo-story-section-s3 .wpo-story-wrap .wpo-story-item .wpo-story-content p {
-        font-size: 17px;
+        font-size: 16px;
     }
 }
 
@@ -13258,6 +13258,14 @@ wpo-hero-slider-s4
     border: none;
     border-radius: 40px;
 }
+
+input::placeholder {
+    color: #848892 !important;
+  }
+
+  input {
+    color: #848892 !important;
+  }
 
 .cart-area .quantity .qtybutton {
     position: absolute;
