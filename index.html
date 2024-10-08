@@ -45,6 +45,7 @@
           </div>
         </div>
       </div>
+
       <section class="wpo-hero-slider wpo-hero-style-3">
         <h2 class="hidden">some</h2>
         <div class="swiper-container">
@@ -84,6 +85,8 @@
         </div>
       </section>
 
+      <audio id="miAudio" src="assets/music/Te Regalo.mp3"></audio>
+
       <section class="wpo-wedding-date">
         <div class="container">
           <h2
@@ -99,9 +102,33 @@
               ><img src="assets/images/slider/shape2.png" alt="" />
             </span>
           </h2>
-          <p class="wow fadeInUp" data-wow-duration="1200ms">
+          <p
+            class="wow fadeInUp"
+            data-wow-duration="1200ms"
+            style="margin-bottom: 0rem !important"
+          >
             Nos casaremos 08 de Noviembre de 2024
           </p>
+          <div class="row wow fadeInUp" data-wow-duration="1400ms">
+            <div id="audioPlayer">
+              <button id="playPauseBtn">
+                <!-- Ícono de Play -->
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="19"
+                  height="19"
+                  fill="#D4B0A5"
+                >
+                  <path d="M8 5v14l11-7z" />
+                </svg>
+              </button>
+              <div id="progressContainer">
+                <div id="progressBar"></div>
+              </div>
+              <span id="timeDisplay">0:00</span>
+            </div>
+          </div>
           <div class="row wow fadeInUp" data-wow-duration="1400ms">
             <div class="col col-xs-12">
               <div class="clock-grids">
@@ -110,6 +137,7 @@
             </div>
           </div>
         </div>
+
         <!-- end container -->
       </section>
 
@@ -290,11 +318,11 @@
                   <p style="color: #848892 !important">
                     Hoy, como padres, vemos cómo se cumple uno de nuestros
                     sueños más hermosos: verlos formar una familia basada en el
-                    amor de Dios, el respeto y la confianza. Nos sentimos bendecidos de
-                    ser testigos del inicio de esta nueva etapa en sus vidas,
-                    donde dos caminos se unen para caminar juntos hacia el
-                    futuro. Que la bendición y sabiduría de Dios colme su
-                    matrimonio, derramando amor y alegría en abundancia.
+                    amor de Dios, el respeto y la confianza. Nos sentimos
+                    bendecidos de ser testigos del inicio de esta nueva etapa en
+                    sus vidas, donde dos caminos se unen para caminar juntos
+                    hacia el futuro. Que la bendición y sabiduría de Dios colme
+                    su matrimonio, derramando amor y alegría en abundancia.
                   </p>
                 </div>
               </div>
@@ -788,6 +816,7 @@
 
     <!-- All JavaScript files
     ================================================== -->
+    <script src="assets/js/music.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!-- Plugins for this template -->

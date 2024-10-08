@@ -20181,3 +20181,36 @@ input::placeholder {
 .color12 .wpo-blog-single-section .tag-share-s2 .tag a {
     background: none !important;
 }
+
+
+#audioPlayer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+  }
+  #progressContainer {
+    width: 200px; /* Menor ancho */
+    height: 8px;  /* Menor altura */
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+  }
+  #progressBar {
+    width: 0;
+    height: 100%;
+    background-color: #D4B0A5;
+    transition: width 0.1s linear;
+  }
+  #timeDisplay {
+    font-size: 12px; /* Tamaño de fuente más pequeño */
+  }
